@@ -1,6 +1,6 @@
 package analyzer
 
-import "github.com/PradyXd/smart-audit/pkg/models"
+import "github.com/PradyXd/smart-audit.git/pkg/models"
 
 func CalculateSecurityScore(vulnerabilities []models.Vulnerability) float64 {
 	baseScore := 100.0

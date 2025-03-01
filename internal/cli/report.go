@@ -12,7 +12,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/PradyXd/smart-audit/pkg/models"
+	"github.com/PradyXd/smart-audit.git/pkg/models"
 )
 
 // SecurityReport represents a comprehensive security analysis report

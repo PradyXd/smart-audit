@@ -9,7 +9,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/PradyXd/smart-audit/pkg/analyzer"
+	"github.com/PradyXd/smart-audit.git/pkg/analyzer"
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"

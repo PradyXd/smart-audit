@@ -7,7 +7,7 @@ import (
 	"html/template"
 	"os"
 
-	"github.com/PradyXd/smart-audit/pkg/models"
+	"github.com/PradyXd/smart-audit.git/pkg/models"
 )
 
 // ExportReport exports vulnerabilities to different formats
