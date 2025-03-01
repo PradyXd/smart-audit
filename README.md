@@ -90,6 +90,6 @@ Push to the branch
 Create a new Pull Request
 
 # 📄 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details.
 
 # Disclaimer: SmartAudit is a tool to assist in identifying potential vulnerabilities. Always conduct thorough manual code reviews and professional security audits.
