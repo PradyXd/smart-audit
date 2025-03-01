@@ -2,12 +2,12 @@ package cli
 
 import (
 	"fmt"
+	"math"
 	"os"
 	"path/filepath"
 	"sort"
 	"strings"
 	"time"
-	"math"
 
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"
@@ -167,8 +167,8 @@ func (r *SecurityReport) ExportReport(outputPath string) error {
 
 	// Write report content
 	var reportContent strings.Builder
-	reportContent.WriteString(fmt.Sprintf("Smart Contract Security Report\n"))
-	reportContent.WriteString(fmt.Sprintf("Contract Path: %s\n", r.ContractPath))
+	reportContent.WriteString("Smart Contract Security Report\n")
+	reportContent.WriteString("Contract Path: " + r.ContractPath + "\n")
 	reportContent.WriteString(fmt.Sprintf("Security Score: %.2f/100\n", r.SecurityScore))
 	reportContent.WriteString(fmt.Sprintf("Analysis Timestamp: %s\n\n", r.AnalysisTimestamp.Format(time.RFC1123)))
 
